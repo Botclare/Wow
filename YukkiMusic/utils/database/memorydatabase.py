@@ -459,8 +459,8 @@ async def maintenance_on():
 
 
 # Audio Video Limit
-from pytgcalls.types import AudioQuality, VideoQuality
-from pytgcalls.types import AudioParameters, VideoParameters
+from pytgcalls.raw.types import AudioQuality, VideoQuality
+from pytgcalls.raw.types import AudioParameters, VideoParameters
 
 
 async def save_audio_bitrate(chat_id: int, bitrate: str):
